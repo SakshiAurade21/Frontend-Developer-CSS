@@ -1,0 +1,29 @@
+body{
+    background-color: #4f6d7a;
+}
+h1{
+    /* background-color:#d9dcd6 ; */
+    /* color:; */
+    color: #f2dfd7;
+    text-align:center;
+    text-decoration-line: underline;
+    line-height: 3px;
+    text-decoration-style: wavy;
+
+}
+h3{
+    color:#c0d6df;
+    text-align:center;
+}
+div{
+    text-align: center;
+    color: #d2e8e4;
+    font-family: 'Arial Narrow Bold'
+}
+
+#img1{
+  display:flex;
+  margin: auto;
+  width: 20%;
+  border-style: double;
+}
