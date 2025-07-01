@@ -10,7 +10,7 @@
 #logo{
     color:#f08804;
     font-size: 25px;
-}
+} 
 
 button{
     background-color:#f08804;
@@ -18,5 +18,51 @@ button{
 
 a{
     margin-right: 100px;
-text-decoration: none;
+    text-decoration: none;
+}
+
+
+#content{
+  padding: 20px;
+  text-align: center;
+  color:blueviolet;
+}
+
+.contentbox1, .contentbox2, .contentbox3 {
+  display: inline-block;
+  width: 28%;
+  margin: 1%;
+  padding: 15px;
+  border-radius: 8px;
+  color: black; 
+
+  
+}
+
+.contentbox1 {
+  background-color: #f9c74f; /* warm yellow */
+  background-image: url(Amazon_image_1.png);
+  background-size: cover;
+  border-style:double;
+}
+
+.contentbox2 {
+  background-color: #90be6d; /* soft green */
+  background-image: url(Amazon_image_2.png);
+  background-size: cover;
+  border-style: dashed;
+}
+
+.contentbox3 {
+  background-color: #f94144; /* bold red */
+  background-image: url(Amazon_image_3.png);
+  background-size: cover;
+  border-style:dotted ;
+}
+
+
+footer{
+    background-color:black;
+    color: wheat;
+    text-align: center;
 }
