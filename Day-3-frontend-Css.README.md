@@ -207,8 +207,3 @@ Set an image as background of a div.
 .hero {
   background-size: cover;
 }
-```
-
----
-
-✨ You’ve covered a LOT today — great job! Let me know when you’re ready for Flexbox or next level styling! 💪🚀
