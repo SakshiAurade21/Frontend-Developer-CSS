@@ -1,0 +1,33 @@
+
+div{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(199, 161, 223);
+    border: 2px double rgb(4, 80, 121);
+    position: absolute;
+    top:30%;
+    left:45%;
+    border-radius: 5%;
+    animation-name: firstanime;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes firstanime{
+    25%{
+        background-color: #f49cbb;
+    }
+    50%{
+        background-color: #f26a8d;
+    }
+    75%{
+        background-color: #dd2d4a;
+    }
+    75%{
+        background-color: #880d1e;
+    }
+    
+}

@@ -1,0 +1,22 @@
+#container{
+    height: 100px;
+    width: 970px;
+    background-color: #103a71;
+    align-content: center;
+}
+
+a{
+    color: #9eb3c2;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* ----------------------------------------------------- */

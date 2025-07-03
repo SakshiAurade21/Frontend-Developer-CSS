@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+div{
+    height: 150px;
+    width: 150px;
+    background-color :cadetblue;
+    border: 1px solid blueviolet;
+}
+
+/* green < 300
+pink  300-400
+red 400-600
+blue 600> */
+
+
+@media(width<=300px){
+    div{
+        background-color: rgb(44, 126, 44);
+    }
+}
+
+@media(min-width:300px) and (max-width:400px){
+    div{
+        background-color:rgb(176, 56, 76);
+    }
+}
+
+@media(min-width:400px) and (max-width:500px){
+    div{
+        background-color:rgb(220, 20, 20);
+    }
+}
+
+@media(width>=600px){
+    div{
+        background-color:blue;
+    }
+}

@@ -1,0 +1,18 @@
+
+#Outer{
+    height: 300px;
+    width: 300px;
+    background-color: #c08552;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 150px;
+    width: 150px;
+    background-color: #f3e9dc;
+    border-radius: 10%;
+    display: flex;
+}

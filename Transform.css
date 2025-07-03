@@ -1,0 +1,24 @@
+
+div{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(199, 161, 223);
+    border: 2px double rgb(86, 25, 25);
+    position: absolute;
+    top:30%;
+    left:45%;
+    border-radius: 5%;
+    /* justify-content: center; */
+    /* transform: rotate(45deg); */
+    transition-duration: 5s;
+    transition-delay: 2ms;
+    
+}
+
+div:hover{
+    background-color: rgb(250, 179, 215);
+    font-size:25px;
+    transform:skew(85deg);
+    /* transform:scale(1.2); */
+    /* transform: translateX(150px); */
+}
